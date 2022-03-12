@@ -118,11 +118,14 @@ public class Ora20220309 {
         }
         int[] years = {1999, 1988, 2006, 1743, 965, 2022, 1349, 1582, 1222, 1876, 2001, 1946, 1482};
         index = 0;
+        int hm = 0;
         while (index < years.length){
             if (years[index]>1582){
                 System.out.println(years[index]);
+                hm +=1;
             }
             index++;
         }
+        System.out.println(hm + " eleme a tömbnek nagyobb 1582-nél");
     }
 }
