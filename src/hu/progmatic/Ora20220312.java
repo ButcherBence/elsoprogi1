@@ -5,6 +5,6 @@ import java.util.Scanner;
 public class Ora20220312 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int i = 15;
+        int i = 16;
     }
 }
